@@ -5,7 +5,11 @@
   "projects": {
     "app-admin-digitalgamesmx": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -24,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -88,7 +92,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -119,6 +123,11 @@
           }
         }
       }
-    }},
-  "defaultProject": "app-admin-digitalgamesmx"
+    }
+  },
+  "defaultProject": "app-admin-digitalgamesmx",
+  "cli": {
+    "analytics": "489941a0-9b3b-48d0-abd9-ce07d2226e35"
+  }
+ 
 }
