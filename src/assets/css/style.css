@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 0 0;
   overflow: hidden;
 }
 
@@ -740,7 +740,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 130px;
+  padding-bottom: 50px;
 }
 
 .contact .info {
